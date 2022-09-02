@@ -22,8 +22,8 @@ sleep(2)
 username_input = browser.find_element(By.CSS_SELECTOR, "input[name='username']")
 password_input = browser.find_element(By.CSS_SELECTOR, "input[name='password']")
 
-username_input.send_keys("")
-password_input.send_keys("")
+username_input.send_keys("a")
+password_input.send_keys("a")
 
 login_link = browser.find_element("xpath", "//div[text()='Log In']")
 login_link.click()
