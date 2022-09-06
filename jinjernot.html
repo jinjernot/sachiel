@@ -1,14 +1,62 @@
-
 <html>
-    <head>
-    <head>
-    <title>Jinjernot Gallery</title>
-    </head>
-    <body>
-    <h1>Jinjernot
-    <iframe src="https://ghbtns.com/github-btn.html?user=norindes&repo=jinjernot&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe></h1>
+<head>
+<title>Jinjernot Gallery</title>
+    <meta charset="UTF-8" />
+<meta name="description" content="Simple web scrapper made with Python"  />
+<meta name="keywords" content="react, responsive, image, photos, photo, gallery, photo gallery, image gallery"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+<div class="container">
+<header>
+    <h1>
+        Jinjernot
+        <iframe src="https://ghbtns.com/github-btn.html?user=norindes&repo=jinjernot&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe></h1>
+    </h1>
+<h2 class="header">Powered by:</h2>
+<div class="sub"><a href="http://sabarobestudios.io">Sabarobe Studios</a></div>
+</header>
+    <div id="app"></div>
+</div>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.0/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.0/react-dom.min.js"></script>
+<script src="https://unpkg.com/prop-types@15.5.10/prop-types.js"></script>
+<script src="https://unpkg.com/react-photo-gallery@6.3.0/dist/react-photo-gallery.umd.js"></script>
+<script type="text/babel">
     
-    <img src=solunademar/solunademar1.jpg>
+const photos = [
+{src: './im/0.jpg', width:4, height:3},
+{src: './im/1.jpg', width:4, height:3},
+{src: './im/2.jpg', width:4, height:3},
+{src: './im/3.jpg', width:4, height:3},
+{src: './im/4.jpg', width:4, height:3},
+{src: './im/5.jpg', width:4, height:3},
+{src: './im/6.jpg', width:4, height:3},
+{src: './im/7.jpg', width:4, height:3},
+{src: './im/8.jpg', width:4, height:3},
+{src: './im/9.jpg', width:4, height:3},
+{src: './im/10.jpg', width:4, height:3},
+{src: './im/11.jpg', width:4, height:3},
+{src: './im/12.jpg', width:4, height:3},
+{src: './im/13.jpg', width:4, height:3},
+{src: './im/14.jpg', width:4, height:3},
+{src: './im/15.jpg', width:4, height:3},
+{src: './im/16.jpg', width:4, height:3},
+{src: './im/17.jpg', width:4, height:3},
+{src: './im/18.jpg', width:4, height:3},
+{src: './im/19.jpg', width:4, height:3},
 
+];
+
+class App extends React.Component{
+render(){
+  return(
+    <Gallery photos={photos} />
+  )
+}
+}
+ReactDOM.render(<App />, document.getElementById('app'));
+</script>
 </body>
 </html>

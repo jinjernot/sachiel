@@ -22,8 +22,8 @@ sleep(2)
 username_input = browser.find_element(By.CSS_SELECTOR, "input[name='username']")
 password_input = browser.find_element(By.CSS_SELECTOR, "input[name='password']")
 
-username_input.send_keys("a")
-password_input.send_keys("a")
+username_input.send_keys("")
+password_input.send_keys("")
 
 login_link = browser.find_element("xpath", "//div[text()='Log In']")
 login_link.click()
@@ -50,7 +50,9 @@ search_user.send_keys(Keys.ENTER)
 time.sleep(3)
 
 folder_name = user
+folder = "im"
 os.mkdir(folder_name)
+os.mkdir(folder)
 
 images = browser.find_elements(By.TAG_NAME,'img')
 
@@ -60,27 +62,12 @@ for x in images:
     src = x.get_attribute("src")
     time.sleep(1)
     path = (f'{folder_name}/{folder_name}{i}{ext}')
+    path2 = ((f'{folder}/{i}{ext}'))
     chida = urllib.request.urlretrieve(src, path)
+    palreact = urllib.request.urlretrieve(src, path2)
     print(chida)
+    print(palreact)
     i=i+1
 browser.close()
 
-f = open('jinjernot.html', 'w')
-
-html_template =f"""
-<html>
-    <head>
-    <head>
-    <title>Jinjernot Gallery</title>
-    </head>
-    <body>
-    <h1>Jinjernot
-    <iframe src="https://ghbtns.com/github-btn.html?user=norindes&repo=jinjernot&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe></h1>
-    <img src={path}>
-</body>
-</html>
-"""
-f.write(html_template)
-  
-f.close()
 webbrowser.open_new_tab('jinjernot.html')
