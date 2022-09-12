@@ -1,7 +1,5 @@
-from logging import root
 from time import sleep
 import time
-from turtle import color
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -10,8 +8,6 @@ import os
 import webbrowser
 from tkinter import *
 import tkinter as tk
-
-
 
 #GUI
 ws = Tk()
@@ -103,14 +99,18 @@ canvas.create_image(
 
 canvas.create_text(
 	1000, 
-	100, 
+	110, 
 	text = 'Ingresa el usuario a stalkear',
-	font=('Verdana', 36),
+	font=("Terminal", 36, "bold"),
+    fill=("white")
+    
+ 
 	)
 
 entry = Entry (
     ws,
     width=50,
+    
     textvariable=user,
 )
 
@@ -123,12 +123,12 @@ entry_canvas = canvas.create_window(
 
 btn = Button(
 	ws, 
-	text = 'Stalkear',
+	text = 'Stalk',
 	command=stalker,
-	width=10,
-	height=5,
+	width=8,
+	height=2,
 	relief=SOLID,
-	font=('arial', 36)
+	font=("Terminal", 36, "bold")
 	)
 
 btn_canvas = canvas.create_window(
