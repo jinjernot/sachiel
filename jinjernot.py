@@ -13,11 +13,10 @@ import tkinter as tk
 ws = Tk()
 ws.title('Jinjernot')
 ws.geometry('1920x1080')
-
 user = tk.StringVar()
 
-def stalker():
-    
+
+def login():
     browser = webdriver.Firefox()
     browser.implicitly_wait(5)
 
@@ -33,7 +32,7 @@ def stalker():
     username_input.send_keys("")
     password_input.send_keys("")
 
-    login_link = browser.find_element("xpath", "//div[text()='Log In']")
+    login_link = browser.find_element("xpath", "/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div")
     login_link.click()
 
     time.sleep(3)
@@ -48,6 +47,11 @@ def stalker():
     passlogin_link.click()
 
     time.sleep(3)
+
+# Funcion Stalkergram
+def stalker():
+
+    login()
 
     search_user = browser.find_element("xpath", "//input[@placeholder='Search']")
     search_user.send_keys(user.get())
@@ -80,6 +84,15 @@ def stalker():
 
     webbrowser.open_new_tab('jinjernot.html')
 
+def like():
+    login()
+
+
+
+
+
+
+# Imagen de fondo
 bg = PhotoImage(file = 'img/intro.png')
 
 canvas = Canvas(
@@ -100,17 +113,14 @@ canvas.create_image(
 canvas.create_text(
 	1000, 
 	110, 
-	text = 'Ingresa el usuario a stalkear',
+	text = 'Jinjernot v1',
 	font=("Terminal", 36, "bold"),
     fill=("white")
-    
- 
 	)
 
 entry = Entry (
     ws,
     width=50,
-    
     textvariable=user,
 )
 
@@ -136,6 +146,23 @@ btn_canvas = canvas.create_window(
 	300,
 	anchor = "nw",
 	window = btn,
+	)
+
+btnL = Button(
+	ws, 
+	text = 'Post',
+	command=like,
+	width=8,
+	height=2,
+	relief=SOLID,
+	font=("Terminal", 36, "bold")
+	)
+
+btnL_canvas = canvas.create_window(
+	400, 
+	300,
+	anchor = "nw",
+	window = btnL,
 	)
 
 ws.mainloop()
