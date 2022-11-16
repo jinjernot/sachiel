@@ -12,3 +12,487 @@ Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is nul
 getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
 
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668570156411	geckodriver	INFO	Listening on 127.0.0.1:54879
+1668570156920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43363" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileC9SQBo"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668570157880	Marionette	INFO	Marionette enabled
+1668570157891	Marionette	INFO	Listening on port 34047
+Read port: 34047
+WebDriver BiDi listening on ws://127.0.0.1:43363
+1668570158067	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileC9SQBo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43363/devtools/browser/e1f7337e-cf3f-491b-a5ed-26a23665a781
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668570193805	Marionette	INFO	Stopped listening on port 34047
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668570537237	geckodriver	INFO	Listening on 127.0.0.1:38411
+1668570537249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35589" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoFzCXu"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668570538180	Marionette	INFO	Marionette enabled
+1668570538188	Marionette	INFO	Listening on port 37421
+Read port: 37421
+WebDriver BiDi listening on ws://127.0.0.1:35589
+1668570538392	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoFzCXu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35589/devtools/browser/0f5fd281-9d92-4556-85e6-519af684b6cb
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/TabsList.jsm, line 527: TypeError: this.dropIndicator is null
+1668570590292	Marionette	INFO	Stopped listening on port 37421
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668570607236	geckodriver	INFO	Listening on 127.0.0.1:48293
+1668570607248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile55RIYT"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668570608190	Marionette	INFO	Marionette enabled
+1668570608198	Marionette	INFO	Listening on port 36345
+Read port: 36345
+WebDriver BiDi listening on ws://127.0.0.1:43243
+1668570608392	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile55RIYT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43243/devtools/browser/6c598eb9-2d23-44e2-aac0-3cb43fe088af
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 70: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668570706133	Marionette	INFO	Stopped listening on port 36345
+1668570711500	geckodriver	INFO	Listening on 127.0.0.1:33365
+1668570711509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58125" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMcmNYS"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668570712413	Marionette	INFO	Marionette enabled
+1668570712421	Marionette	INFO	Listening on port 42001
+Read port: 42001
+WebDriver BiDi listening on ws://127.0.0.1:58125
+1668570712643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMcmNYS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58125/devtools/browser/021a65f2-bde4-40d6-a34b-9ad14895ea59
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668570748214	Marionette	INFO	Stopped listening on port 42001
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668570749336	geckodriver	INFO	Listening on 127.0.0.1:49905
+1668570749841	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58615" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewdnf8t"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668570750880	Marionette	INFO	Marionette enabled
+1668570750888	Marionette	INFO	Listening on port 35383
+Read port: 35383
+WebDriver BiDi listening on ws://127.0.0.1:58615
+1668570751062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewdnf8t/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58615/devtools/browser/f04d75ec-3c53-4415-9bcc-dc986a04aeaf
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 70: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668570866775	Marionette	INFO	Stopped listening on port 35383
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668571204428	geckodriver	INFO	Listening on 127.0.0.1:47443
+1668571204442	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36845" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEegrMD"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668571205405	Marionette	INFO	Marionette enabled
+1668571205414	Marionette	INFO	Listening on port 45239
+Read port: 45239
+WebDriver BiDi listening on ws://127.0.0.1:36845
+1668571205590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEegrMD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36845/devtools/browser/300d2e35-fb6b-476d-84bd-a34d428acdcc
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668571309749	Marionette	INFO	Stopped listening on port 45239
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668571414942	geckodriver	INFO	Listening on 127.0.0.1:59565
+1668571414954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37923" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA7A9SH"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668571415937	Marionette	INFO	Marionette enabled
+1668571415946	Marionette	INFO	Listening on port 34807
+Read port: 34807
+WebDriver BiDi listening on ws://127.0.0.1:37923
+1668571416121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileA7A9SH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37923/devtools/browser/94a88ebb-548b-447b-aa1f-0b020d4f4426
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 70: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+1668571494117	geckodriver	INFO	Listening on 127.0.0.1:49817
+1668571494130	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54867" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVoUkrl"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668571495128	Marionette	INFO	Marionette enabled
+1668571495139	Marionette	INFO	Listening on port 42631
+Read port: 42631
+WebDriver BiDi listening on ws://127.0.0.1:54867
+1668571495354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVoUkrl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54867/devtools/browser/427f537f-78c8-4a34-be27-a38b60d346ec
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 70: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668571948241	Marionette	INFO	Stopped listening on port 34807
+1668572946306	geckodriver	INFO	Listening on 127.0.0.1:53359
+1668572946314	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41411" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8r4PZx"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668572947246	Marionette	INFO	Marionette enabled
+1668572947254	Marionette	INFO	Listening on port 33253
+Read port: 33253
+WebDriver BiDi listening on ws://127.0.0.1:41411
+1668572947441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8r4PZx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41411/devtools/browser/4ee445e0-a5a5-4751-9961-03c29d10af81
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668573113937	geckodriver	INFO	Listening on 127.0.0.1:51219
+1668573113951	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXjDmSs"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668573114894	Marionette	INFO	Marionette enabled
+1668573114902	Marionette	INFO	Listening on port 41413
+Read port: 41413
+WebDriver BiDi listening on ws://127.0.0.1:57701
+1668573115088	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXjDmSs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57701/devtools/browser/e0bdc07f-66a3-42c3-92fa-495091cbb92b
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668573164096	Marionette	INFO	Stopped listening on port 41413
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668573235807	geckodriver	INFO	Listening on 127.0.0.1:41779
+1668573235818	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileG1MQ8E"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668573236767	Marionette	INFO	Marionette enabled
+1668573236775	Marionette	INFO	Listening on port 40547
+Read port: 40547
+WebDriver BiDi listening on ws://127.0.0.1:44895
+1668573236948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileG1MQ8E/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44895/devtools/browser/673caf17-60fd-4707-afd5-1733f11ce96a
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/TabsList.jsm, line 527: TypeError: this.dropIndicator is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+1668573330637	geckodriver	INFO	Listening on 127.0.0.1:37077
+1668573330648	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51503" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileu8GVDI"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668573331602	Marionette	INFO	Marionette enabled
+1668573331610	Marionette	INFO	Listening on port 44141
+Read port: 44141
+WebDriver BiDi listening on ws://127.0.0.1:51503
+1668573331814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu8GVDI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51503/devtools/browser/bb2ed368-f5a7-4817-9520-0edf546d299d
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+Marionette threw an error: TypeError: chromeWindow is null
+waitForNavigationCompleted@chrome://remote/content/marionette/navigate.sys.mjs:366:3
+GeckoDriver.prototype.clickElement@chrome://remote/content/marionette/driver.sys.mjs:1639:23
+observe@resource://gre/modules/AsyncShutdown.jsm:574:16
+
+1668573342439	Marionette	INFO	Stopped listening on port 44141
+1668573421123	geckodriver	INFO	Listening on 127.0.0.1:39009
+1668573421140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58327" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3L6R40"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668573422136	Marionette	INFO	Marionette enabled
+1668573422147	Marionette	INFO	Listening on port 37719
+Read port: 37719
+WebDriver BiDi listening on ws://127.0.0.1:58327
+1668573422342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3L6R40/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58327/devtools/browser/bf1e439e-68fb-4f15-8104-3d15c61f58eb
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668573491610	Marionette	INFO	Stopped listening on port 37719
+1668574635393	Marionette	INFO	Stopped listening on port 40547
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668574637707	Marionette	INFO	Stopped listening on port 33253
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668574640632	Marionette	INFO	Stopped listening on port 42631
+1668574766851	geckodriver	INFO	Listening on 127.0.0.1:45917
+1668574766864	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54477" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyCowy4"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668574767837	Marionette	INFO	Marionette enabled
+1668574767845	Marionette	INFO	Listening on port 41505
+Read port: 41505
+WebDriver BiDi listening on ws://127.0.0.1:54477
+1668574768043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyCowy4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54477/devtools/browser/8ed81728-14eb-47bb-9f09-7887829bb55e
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668574784406	Marionette	INFO	Stopped listening on port 41505
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668575114372	geckodriver	INFO	Listening on 127.0.0.1:50103
+1668575114379	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRu6Of3"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668575115303	Marionette	INFO	Marionette enabled
+1668575115311	Marionette	INFO	Listening on port 46587
+Read port: 46587
+WebDriver BiDi listening on ws://127.0.0.1:41135
+1668575115550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRu6Of3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41135/devtools/browser/439fdeb6-22c8-4a61-8033-6720088bde93
+1668575132197	Marionette	INFO	Stopped listening on port 46587
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668575173040	geckodriver	INFO	Listening on 127.0.0.1:49601
+1668575173048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48263" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQmNUPK"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668575173978	Marionette	INFO	Marionette enabled
+1668575173987	Marionette	INFO	Listening on port 41619
+Read port: 41619
+WebDriver BiDi listening on ws://127.0.0.1:48263
+1668575174183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQmNUPK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48263/devtools/browser/af20bf90-0e4c-4fe6-a6da-8d4c6d7c3df3
+1668575352072	Marionette	INFO	Stopped listening on port 41619
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668575421587	geckodriver	INFO	Listening on 127.0.0.1:35587
+1668575421601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefAgRDF"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668575422548	Marionette	INFO	Marionette enabled
+1668575422557	Marionette	INFO	Listening on port 41667
+Read port: 41667
+WebDriver BiDi listening on ws://127.0.0.1:35209
+1668575422756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefAgRDF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35209/devtools/browser/fc7a9e4e-8b58-427e-b310-09c790d01208
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668575442458	Marionette	INFO	Stopped listening on port 41667
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668575593983	geckodriver	INFO	Listening on 127.0.0.1:54675
+1668575593994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8hOAQE"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668575594931	Marionette	INFO	Marionette enabled
+1668575594939	Marionette	INFO	Listening on port 37583
+Read port: 37583
+WebDriver BiDi listening on ws://127.0.0.1:37159
+1668575595121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8hOAQE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37159/devtools/browser/35a883b7-d024-47b6-9ab1-6005a27d7659
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/yO/l/en_US/YfjEmrpPzaU.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+(firefox:36564): Gtk-WARNING **: 23:22:21.540: Attempting to read the recently used resources file at '/home/temp/.local/share/recently-used.xbel', but the parser failed: Failed to open file “/home/temp/.local/share/recently-used.xbel”: Permission denied.
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.11" (uid=1000 pid=1772 comm="/usr/libexec/gvfs-udisks2-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.17" (uid=1000 pid=1830 comm="/usr/libexec/gvfs-afc-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.GPhoto2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.15" (uid=1000 pid=1818 comm="/usr/libexec/gvfs-gphoto2-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.GoaVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.13" (uid=1000 pid=1794 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.MTPVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.12" (uid=1000 pid=1789 comm="/usr/libexec/gvfs-mtp-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+
+(firefox:36564): Gtk-WARNING **: 23:22:21.743: Failed to fetch network locations: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.vfs.MountTracker" member="LookupMount" error name="(unset)" requested_reply="0" destination=":1.2" (uid=1000 pid=1716 comm="/usr/libexec/gvfsd " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.796: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.838: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.856: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.872: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.890: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.908: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.922: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.939: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.955: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:21.978: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:22.000: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.056: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.137: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.155: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.171: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.188: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.204: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.221: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.238: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.253: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.270: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.287: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.304: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.326: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.336: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.630: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:22:23.632: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.17" (uid=1000 pid=1830 comm="/usr/libexec/gvfs-afc-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.GPhoto2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.15" (uid=1000 pid=1818 comm="/usr/libexec/gvfs-gphoto2-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.GoaVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.13" (uid=1000 pid=1794 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.MTPVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.12" (uid=1000 pid=1789 comm="/usr/libexec/gvfs-mtp-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+
+(firefox:36564): Gtk-WARNING **: 23:23:22.387: Failed to fetch network locations: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.vfs.MountTracker" member="LookupMount" error name="(unset)" requested_reply="0" destination=":1.2" (uid=1000 pid=1716 comm="/usr/libexec/gvfsd " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.416: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.447: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.463: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.481: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.496: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.514: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.530: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.546: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.561: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.579: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.595: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.610: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.624: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.642: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:22.660: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:26.882: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:23:26.884: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.17" (uid=1000 pid=1830 comm="/usr/libexec/gvfs-afc-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.GPhoto2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.15" (uid=1000 pid=1818 comm="/usr/libexec/gvfs-gphoto2-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.GoaVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.13" (uid=1000 pid=1794 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.vfs.MTPVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.Private.RemoteVolumeMonitor" member="IsSupported" error name="(unset)" requested_reply="0" destination=":1.12" (uid=1000 pid=1789 comm="/usr/libexec/gvfs-mtp-volume-monitor " label="unconfined") (g-dbus-error-quark, 9)
+
+(firefox:36564): Gtk-WARNING **: 23:26:25.378: Failed to fetch network locations: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.gtk.vfs.MountTracker" member="LookupMount" error name="(unset)" requested_reply="0" destination=":1.2" (uid=1000 pid=1716 comm="/usr/libexec/gvfsd " label="unconfined")
+
+(firefox:36564): dconf-WARNING **: 23:26:30.172: failed to commit changes to dconf: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1561" (uid=1000 pid=36564 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="ca.desrt.dconf.Writer" member="Change" error name="(unset)" requested_reply="0" destination="ca.desrt.dconf" (uid=1000 pid=2276 comm="/usr/libexec/dconf-service " label="unconfined")
+1668576514689	Marionette	INFO	Stopped listening on port 37583
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668576623794	geckodriver	INFO	Listening on 127.0.0.1:56419
+1668576623805	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejcoS6M"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1668576624775	Marionette	INFO	Marionette enabled
+1668576624786	Marionette	INFO	Listening on port 41461
+Read port: 41461
+WebDriver BiDi listening on ws://127.0.0.1:42527
+1668576624989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejcoS6M/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42527/devtools/browser/d7c5e229-8ee0-42b8-b41b-f1cbb764e0a2
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/y9/l/en_US/KK6J4xMs954.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/y9/l/en_US/KK6J4xMs954.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/y9/l/en_US/KK6J4xMs954.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/y9/l/en_US/KK6J4xMs954.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/y9/l/en_US/KK6J4xMs954.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/y9/l/en_US/KK6J4xMs954.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/y9/l/en_US/KK6J4xMs954.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/y9/l/en_US/KK6J4xMs954.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ig0s4/y9/l/en_US/KK6J4xMs954.js?_nc_x=Ij3Wp8lg5Kz, line 1833: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iF_s4/yY/l/en_US/2IHYpSGuKAB.js?_nc_x=Ij3Wp8lg5Kz, line 45: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/TabsList.jsm, line 527: TypeError: this.dropIndicator is null
+1668576998582	Marionette	INFO	Stopped listening on port 41461
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
