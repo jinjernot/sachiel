@@ -15,9 +15,12 @@ ws.title('Jinjernot')
 ws.geometry('1920x1080')
 user = tk.StringVar()
 
+#Global variables|
+browser = webdriver.Firefox()
+
 
 def login():
-    browser = webdriver.Firefox()
+    
     browser.implicitly_wait(5)
 
     browser.get('https://www.instagram.com/')
@@ -29,10 +32,10 @@ def login():
     username_input = browser.find_element(By.CSS_SELECTOR, "input[name='username']")
     password_input = browser.find_element(By.CSS_SELECTOR, "input[name='password']")
 
-    username_input.send_keys("")
-    password_input.send_keys("")
+    username_input.send_keys("jinjernot")
+    password_input.send_keys("sabarobe")
 
-    login_link = browser.find_element("xpath", "/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div")
+    login_link = browser.find_element("xpath", "/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div")
     login_link.click()
 
     time.sleep(3)
@@ -84,10 +87,12 @@ def stalker():
 
     webbrowser.open_new_tab('jinjernot.html')
 
-def like():
+def inbox():
+
     login()
 
-
+    mensaje = browser.find_element("xpath", "//a[@href='/direct/inbox/']")
+    mensaje.click()
 
 
 
@@ -151,7 +156,7 @@ btn_canvas = canvas.create_window(
 btnL = Button(
 	ws, 
 	text = 'Post',
-	command=like,
+	command=inbox,
 	width=8,
 	height=2,
 	relief=SOLID,
