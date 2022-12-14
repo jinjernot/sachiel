@@ -9,54 +9,48 @@ import webbrowser
 from tkinter import *
 import tkinter as tk
 
-#GUI
-ws = Tk()
-ws.title('Jinjernot')
-ws.geometry('1920x1080')
-user = tk.StringVar()
+#Start the webbrowser
+driver = webdriver.Firefox()
 
-#Global variables|
-browser = webdriver.Firefox()
-
-
+#funcion para logearse a instagram
 def login():
     
-    browser.implicitly_wait(5)
+    driver.implicitly_wait(5)
+    driver.get('https://www.instagram.com/')
 
-    browser.get('https://www.instagram.com/')
+    sleep(3)
 
-    sleep(2)
+    #Busca los campos para meter user y contraseña
+    username_input = driver.find_element(By.CSS_SELECTOR, "input[name='username']")
+    password_input = driver.find_element(By.CSS_SELECTOR, "input[name='password']")
 
-    #   Log in
+    username_input.send_keys("")
+    password_input.send_keys("")
 
-    username_input = browser.find_element(By.CSS_SELECTOR, "input[name='username']")
-    password_input = browser.find_element(By.CSS_SELECTOR, "input[name='password']")
-
-    username_input.send_keys("jinjernot")
-    password_input.send_keys("sabarobe")
-
-    login_link = browser.find_element("xpath", "/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div")
+    login_link = driver.find_element("xpath", "/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div")
     login_link.click()
 
     time.sleep(3)
 
-    #----
-    passlogin_link = browser.find_element("xpath", "//button[text()='Not Now']")
+    #acepta pop ups
+    passlogin_link = driver.find_element("xpath", "//button[text()='Not Now']")
     passlogin_link.click()
 
     time.sleep(3)
 
-    passlogin_link = browser.find_element("xpath", "//button[text()='Not Now']")
+    passlogin_link = driver.find_element("xpath", "//button[text()='Not Now']")
     passlogin_link.click()
 
     time.sleep(3)
 
-# Funcion Stalkergram
+#Funcion Stalkergram
 def stalker():
 
+    #Llama a la funcion para logear
     login()
 
-    search_user = browser.find_element("xpath", "//input[@placeholder='Search']")
+    #Busca al usuario que se metio en el GUI
+    search_user = driver.find_element("xpath", "//input[@placeholder='Search']")
     search_user.send_keys(user.get())
     time.sleep(3)
     search_user.send_keys(Keys.ENTER)
@@ -64,13 +58,16 @@ def stalker():
 
     time.sleep(3)
 
+    #Crea un folder para ese user
     folder_name = user.get()
     folder = "im"
     os.mkdir(folder_name)
     os.mkdir(folder)
 
-    images = browser.find_elements(By.TAG_NAME,'img')
+    #variable para guardar las imagenes
+    images = driver.find_elements(By.TAG_NAME,'img')
 
+    #loop para sacar las imagenes y guardarlas en el folder
     i=0
     for x in images:
         ext = ".jpg"
@@ -83,18 +80,51 @@ def stalker():
         print(chida)
         print(palreact)
         i=i+1
-    browser.close()
+    driver.close()
 
+    #Abre la galeria
     webbrowser.open_new_tab('jinjernot.html')
 
+#funcion para mandar in inbox
 def inbox():
+
+    #Llama a la funcion para logear
 
     login()
 
-    mensaje = browser.find_element("xpath", "//a[@href='/direct/inbox/']")
+    time.sleep(3)
+    mensaje = driver.find_element("xpath", "//a[@href='/direct/inbox/']/./..")
     mensaje.click()
 
+    time.sleep(2)
+    mensaje = driver.find_element("xpath", "//button[text()='Send Message']")
+    mensaje.click()
 
+    time.sleep(2)
+    mensaje = driver.find_element("xpath", "//input[@placeholder='Search...']")
+    mensaje.send_keys(user.get())
+
+    time.sleep(2)
+    mensaje = driver.find_element("xpath", "/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[2]/div[2]/div[1]/div/div[1]/span/img")
+    mensaje.click()
+    
+    time.sleep(2)
+    mensaje = driver.find_element("xpath", "/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/button/div")
+    mensaje.click()
+
+    time.sleep(2)
+    mensaje = driver.find_element("xpath", "//textarea[@placeholder='Message...']")
+    mensaje.send_keys("oli desde el bot")
+    mensaje.send_keys(Keys.ENTER)
+
+    driver.close()
+
+    
+#Crea el GUI
+ws = Tk()
+ws.title('Jinjernot')
+ws.geometry('1920x1080')
+user = tk.StringVar()
 
 
 # Imagen de fondo
@@ -135,7 +165,6 @@ entry_canvas = canvas.create_window(
     window=entry
     )
 
-
 btn = Button(
 	ws, 
 	text = 'Stalk',
@@ -153,9 +182,9 @@ btn_canvas = canvas.create_window(
 	window = btn,
 	)
 
-btnL = Button(
+btnI = Button(
 	ws, 
-	text = 'Post',
+	text = 'Inbox',
 	command=inbox,
 	width=8,
 	height=2,
@@ -163,11 +192,12 @@ btnL = Button(
 	font=("Terminal", 36, "bold")
 	)
 
-btnL_canvas = canvas.create_window(
+btnI_canvas = canvas.create_window(
 	400, 
 	300,
 	anchor = "nw",
-	window = btnL,
+	window = btnI,
 	)
 
 ws.mainloop()
+
