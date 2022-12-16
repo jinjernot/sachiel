@@ -24,8 +24,8 @@ def login():
     username_input = driver.find_element(By.CSS_SELECTOR, "input[name='username']")
     password_input = driver.find_element(By.CSS_SELECTOR, "input[name='password']")
 
-    username_input.send_keys("")
-    password_input.send_keys("")
+    username_input.send_keys("jinjernot")
+    password_input.send_keys("sabarobe")
 
     login_link = driver.find_element("xpath", "/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div")
     login_link.click()
@@ -43,7 +43,7 @@ def login():
 
     time.sleep(3)
 
-#Funcion Stalkergram
+#funcion Stalkergram
 def stalker():
 
     #Llama a la funcion para logear
@@ -85,7 +85,26 @@ def stalker():
     #Abre la galeria
     webbrowser.open_new_tab('jinjernot.html')
 
-#funcion para mandar in inbox
+#funcion like
+def like():
+
+    login()
+
+    likes = driver.find_element("xpath", "//input[@placeholder='Search']")
+    likes.send_keys(user.get())
+    time.sleep(3)
+    likes.send_keys(Keys.ENTER)
+    likes.send_keys(Keys.ENTER)
+
+    time.sleep(8)
+
+    likes = driver.find_element("xpath", "//a[@href='/p/']")
+    likes.click()
+
+
+
+
+#funcion para mandar inbox
 def inbox():
 
     #Llama a la funcion para logear
@@ -104,20 +123,22 @@ def inbox():
     mensaje = driver.find_element("xpath", "//input[@placeholder='Search...']")
     mensaje.send_keys(user.get())
 
-    time.sleep(2)
+    time.sleep(3)
     mensaje = driver.find_element("xpath", "/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[2]/div[2]/div[1]/div/div[1]/span/img")
     mensaje.click()
     
-    time.sleep(2)
+    time.sleep(3)
     mensaje = driver.find_element("xpath", "/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/button/div")
     mensaje.click()
 
-    time.sleep(2)
+    time.sleep(3)
     mensaje = driver.find_element("xpath", "//textarea[@placeholder='Message...']")
     mensaje.send_keys("oli desde el bot")
+    time.sleep(3)
     mensaje.send_keys(Keys.ENTER)
-
+    time.sleep(3)
     driver.close()
+
 
     
 #Crea el GUI
@@ -127,15 +148,17 @@ ws.geometry('1920x1080')
 user = tk.StringVar()
 
 
-# Imagen de fondo
+# Carga imagen de fondo png
 bg = PhotoImage(file = 'img/intro.png')
 
+#crea Ventana HD
 canvas = Canvas(
 	ws, 
 	width = 1920,
 	height = 1080
 	)
 
+#Asigna la img a todo el fondo
 canvas.pack(fill='both', expand = True)
 
 canvas.create_image(
@@ -145,6 +168,7 @@ canvas.create_image(
 	anchor = "nw"
 	)
 
+#Titulo
 canvas.create_text(
 	1000, 
 	110, 
@@ -153,19 +177,20 @@ canvas.create_text(
     fill=("white")
 	)
 
+#Agarra el usuario y lo asigna a variable
 entry = Entry (
     ws,
     width=50,
     textvariable=user,
 )
-
 entry_canvas = canvas.create_window(
     950,
     200,
     window=entry
     )
 
-btn = Button(
+#boton stalker
+btnS = Button(
 	ws, 
 	text = 'Stalk',
 	command=stalker,
@@ -174,14 +199,14 @@ btn = Button(
 	relief=SOLID,
 	font=("Terminal", 36, "bold")
 	)
-
-btn_canvas = canvas.create_window(
+btns_canvas = canvas.create_window(
 	800, 
 	300,
 	anchor = "nw",
-	window = btn,
+	window = btnS,
 	)
 
+#Boton Inbox
 btnI = Button(
 	ws, 
 	text = 'Inbox',
@@ -196,8 +221,24 @@ btnI_canvas = canvas.create_window(
 	400, 
 	300,
 	anchor = "nw",
-	window = btnI,
+	window = 
+    btnI,
 	)
 
+btnL = Button(
+	ws, 
+	text = 'Likes',
+	command=like,
+	width=8,
+	height=2,
+	relief=SOLID,
+	font=("Terminal", 36, "bold")
+	)
+btnL_canvas = canvas.create_window(
+	1200, 
+	300,
+	anchor = "nw",
+	window = btnL,
+	)
 ws.mainloop()
 
