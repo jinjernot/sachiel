@@ -24,8 +24,8 @@ def login():
     username_input = driver.find_element(By.CSS_SELECTOR, "input[name='username']")
     password_input = driver.find_element(By.CSS_SELECTOR, "input[name='password']")
 
-    username_input.send_keys("jinjernot")
-    password_input.send_keys("sabarobe")
+    username_input.send_keys("")
+    password_input.send_keys("")
 
     login_link = driver.find_element("xpath", "/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div")
     login_link.click()
@@ -95,13 +95,7 @@ def like():
     time.sleep(3)
     likes.send_keys(Keys.ENTER)
     likes.send_keys(Keys.ENTER)
-
-    time.sleep(8)
-
-    likes = driver.find_element("xpath", "//a[@href='/p/']")
-    likes.click()
-
-
+    driver.close()
 
 
 #funcion para mandar inbox
@@ -139,8 +133,32 @@ def inbox():
     time.sleep(3)
     driver.close()
 
+def tweet():
 
-    
+    driver.implicitly_wait(5)
+    driver.get('https://www.twitter.com/')
+    sleep(3)
+
+    tweet = driver.find_element("xpath", "//a[@href='/login']/./..").click()
+    sleep(3)
+    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input")
+    tweet.send_keys("")
+    tweet.send_keys(Keys.ENTER)
+    sleep(3)
+    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input")
+    tweet.send_keys("")
+    tweet.send_keys(Keys.ENTER)
+    sleep(5)
+    tweet = driver.find_element("xpath", "//div[@data-testid='tweetTextarea_0']")
+    tweet.send_keys("test")
+    sleep(3)
+    tweet = driver.find_element("xpath", "//div[@data-testid='tweetButtonInline']").click()
+
+
+
+
+
+
 #Crea el GUI
 ws = Tk()
 ws.title('Jinjernot')
@@ -235,10 +253,29 @@ btnL = Button(
 	font=("Terminal", 36, "bold")
 	)
 btnL_canvas = canvas.create_window(
+	400, 
+	600,
+	anchor = "nw",
+	window = btnL,
+	)
+
+
+btnL = Button(
+	ws, 
+	text = 'Tweet',
+	command=tweet,
+	width=8,
+	height=2,
+	relief=SOLID,
+	font=("Terminal", 36, "bold")
+	)
+btnL_canvas = canvas.create_window(
 	1200, 
 	300,
 	anchor = "nw",
 	window = btnL,
 	)
+
+
 ws.mainloop()
 
