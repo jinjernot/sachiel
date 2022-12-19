@@ -112,12 +112,10 @@ def twitterlogin():
 
     tweet = driver.find_element("xpath", "//a[@href='/login']/./..").click()
     sleep(3)
-    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input")
-    tweet.send_keys("")
+    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input").send_keys("")
     tweet.send_keys(Keys.ENTER)
     sleep(3)
-    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input")
-    tweet.send_keys("")
+    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input").send_keys("")
     tweet.send_keys(Keys.ENTER)
     sleep(5)
 
