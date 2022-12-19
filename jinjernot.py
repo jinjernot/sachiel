@@ -73,19 +73,6 @@ def stalker():
     #Abre la galeria
     webbrowser.open_new_tab('jinjernot.html')
 
-#funcion like
-def like():
-
-    instalogin()
-
-    likes = driver.find_element("xpath", "//input[@placeholder='Search']")
-    likes.send_keys(user.get())
-    time.sleep(3)
-    likes.send_keys(Keys.ENTER)
-    likes.send_keys(Keys.ENTER)
-    driver.close()
-
-
 #funcion para mandar inbox
 def inbox():
 
@@ -142,6 +129,25 @@ def tweet():
     tweet.send_keys("test")
     sleep(3)
     tweet = driver.find_element("xpath", "//div[@data-testid='tweetButtonInline']").click()
+    time.sleep(3)
+
+def like():
+
+    twitterlogin()
+
+    likes = driver.find_element("xpath", "/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/form/div[1]/div/div/div/label/div[2]/div/input")
+    likes.send_keys("from:")
+    likes.send_keys(user.get())
+    time.sleep(3)
+    likes.send_keys(Keys.ENTER)
+    time.sleep(5)
+    darlike = driver.find_elements(By.CSS_SELECTOR, ".css-18t94o4[data-testid ='like']")
+    
+    for botonlike in darlike:
+        time.sleep(2)
+        botonlike.click()
+
+
 
 def main():
     #Crea el GUI
