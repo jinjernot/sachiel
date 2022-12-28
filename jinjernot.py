@@ -12,9 +12,9 @@ import tkinter as tk
 #Start the webbrowser
 driver = webdriver.Firefox()
 
-#funcion para logearse a instagram
 def instalogin():
-    
+    """Funcion para logearse a instagram"""
+
     driver.implicitly_wait(5)
     driver.get('https://www.instagram.com/')
 
@@ -32,8 +32,8 @@ def instalogin():
     login = driver.find_element("xpath", "//button[text()='Not Now']").click()
     time.sleep(3)
 
-#funcion Stalkergram
 def stalker():
+    """Funcion Stalkergram"""
 
     #Llama a la funcion para logear
     instalogin()
@@ -73,8 +73,8 @@ def stalker():
     #Abre la galeria
     webbrowser.open_new_tab('jinjernot.html')
 
-#funcion para mandar inbox
 def inbox():
+    """Funcion para mandar inbox"""
 
     #Llama a la funcion para logear
     instalogin()
@@ -103,8 +103,8 @@ def inbox():
     time.sleep(3)
     driver.close()
 
-#
 def twitterlogin():
+    """Funcion para logearse a Twitter"""
 
     driver.implicitly_wait(5)
     driver.get('https://www.twitter.com/')
@@ -112,14 +112,17 @@ def twitterlogin():
 
     tweet = driver.find_element("xpath", "//a[@href='/login']/./..").click()
     sleep(3)
-    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input").send_keys("")
+    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input")
+    tweet.send_keys("")
     tweet.send_keys(Keys.ENTER)
     sleep(3)
-    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input").send_keys("")
+    tweet = driver.find_element("xpath", "/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input")
+    tweet.send_keys("")
     tweet.send_keys(Keys.ENTER)
     sleep(5)
 
 def tweet():
+    """Funcion para twittear"""
 
     twitterlogin()
 
@@ -130,6 +133,7 @@ def tweet():
     time.sleep(3)
 
 def like():
+    """Funcion para dar like"""
 
     twitterlogin()
 
@@ -145,9 +149,8 @@ def like():
         time.sleep(2)
         botonlike.click()
 
-
-
 def main():
+    """Funcion Main"""
     #Crea el GUI
     ws = Tk()
     ws.title('Jinjernot')
